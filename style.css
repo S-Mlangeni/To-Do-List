@@ -1,0 +1,19 @@
+body {  background-color: brown;
+        color: white;
+}
+
+h1 {text-align: center; 
+    text-decoration: underline;
+}
+#thebutton {position: absolute; 
+            left: 40%;
+        }
+.outputscreen { position: absolute; 
+                top: 20%; left: 40%;
+                background-color: aqua; border: solid black 0.5px;}
+.form {text-align: center;}
+.ourrows {display: flex; align-items: center;} /*"flex" puts elements in a single line*/
+.entries {flex: 1;} /* "flex: 1" moves button elements to the right of the list*/
+.box {position: absolute; right: 10%;}
+/*.deletebutt {margin-left: 30%;}*/
+.frame {margin-left: 36%; margin-right: 33%;}
