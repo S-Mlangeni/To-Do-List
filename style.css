@@ -10,6 +10,7 @@ body {  background-color: brown;
         color: white;
         display: flex;
         justify-content: center;
+        width: 100vw;
 }
 
 .content {
@@ -17,6 +18,8 @@ body {  background-color: brown;
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    max-width: 100vw;
+    border: blue solid 5px;
 }
 
 .content h1 { 
