@@ -5,14 +5,14 @@
     margin: 0px;
 }
 
-
-body {
+.main {
     background-color: brown;
     color: white;
+    height: 100vh;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
-
 
 .content {
     display: flex; 
@@ -22,7 +22,7 @@ body {
     /*flex-basis: 400px; *//* similar to "min-width" but doesn't
     allow scrolling past the specified min width. */
     min-width: 360px;
-    border: rgb(0, 195, 255) solid 5px;
+    border: rgb(179, 255, 0) solid 5px;
 }
 
 .content h1 { 
@@ -65,4 +65,10 @@ body {
 .doneanddeletebutton button{
     margin-left: 10px;
     padding: 5px;
+}
+
+@media (max-width: 400px) {
+    .content {
+        width: 360px;
+    }
 }
