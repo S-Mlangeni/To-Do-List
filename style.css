@@ -6,20 +6,23 @@
 }
 
 
-body {  background-color: brown;
-        color: white;
-        display: flex;
-        justify-content: center;
-        width: 100vw;
+body {
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
+
 
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    max-width: 100vw;
-    border: blue solid 5px;
+    /*flex-basis: 400px; *//* similar to "min-width" but doesn't
+    allow scrolling past the specified min width. */
+    min-width: 360px;
+    border: rgb(0, 195, 255) solid 5px;
 }
 
 .content h1 { 
